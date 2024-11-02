@@ -1,0 +1,17 @@
+{
+    "name": "yourvendor/crud-generator",
+    "description": "A Laravel package to generate CRUD files dynamically.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\CrudGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    }
+}
