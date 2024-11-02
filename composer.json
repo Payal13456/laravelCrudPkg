@@ -1,5 +1,5 @@
 {
-    "name": "yourvendor/crud-generator",
+    "name": "payal-laravel/crud-generator",
     "description": "A Laravel package to generate CRUD files dynamically.",
     "type": "library",
     "autoload": {
